@@ -1,0 +1,29 @@
+Lab . Configuring Back-toBack Serial Connections
+
+Lab Objective:
+The objective of this lab exercise is to configure back-to-back Serial
+interfaces between two Cisco routers. By default, router Serial
+interfaces receive their clocking information from an external device
+such as a CSU/DSU.
+Lab Purpose:
+Back-to-back Serial interface configuration is a fundamental skill.
+Because routers typically receive clocking from an external device
+such as a CSU/DSU, it is imperative to understand how to bring up a
+back-to-back Serial connection between two routers to set up your
+home lab, for example. As a Cisco engineer, as well as in the Cisco
+CCNA exam, you will be expected to know how to configure back-toback Serial connections.
+Task 1:
+Configure hostnames on R1 and R2 as illustrated in the topology.
+Task 2:Enable Serial interfaces on R1 and R2. The Serial0/0 interface on
+R2 is identified as the DCE in the topology. Use the appropriate show
+command to verify that this interface is indeed the DCE.
+Task 3:
+Configure the DCE interface on R2 to provide clocking to R1. The
+clock speed should be 560 Kbps. Remember that 1 Kbps = 1000
+bps. Verify that R1 receives clocking information from R2.
+Task 4:
+Configure IP addressing on R1 and R2 Serial0/0 interfaces as
+illustrated in the topology.
+Task 5:
+Verify your interface status and ping between R1 and R2 to validate
+connectivity

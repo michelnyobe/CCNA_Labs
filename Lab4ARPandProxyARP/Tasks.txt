@@ -1,0 +1,32 @@
+Lab . ARP and Proxy ARP
+
+Lab Objective:
+The objective of this lab exercise is for you to learn and understand
+how ARP and Proxy ARP is used by the router in order to
+encapsulate the packet before it is sent to a neighbor device.
+
+Lab Purpose:
+You must understand how ARP works in order to pass the CCNA
+exam. You could well be faced with an ARP-related issue to
+troubleshoot in the exam or in the real world.
+Task 1:
+Configure the hostnames on routers R1, R2, and R3 as illustrated in
+the topology.
+Task 2:
+Configure the IP addresses on the Ethernet interfaces of R1, R2,
+and R3 as illustrated in the topology (.1 for R1 and .2 for R2, and
+then .1 and .2 between R2 and R3).
+Add static routes so that R1 can ping the host address on R3 and R3
+can return the ping. Then check the ARP cache on R1. A default
+route for all traffic to leave via the Ethernet interface will do.
+Task 3:
+Use the correct show commands to check:
+1. The ARP cache on R1. What are the times for the learned
+addresses? Which will not timeout and how can you tell?
+2. What is the entry for R3 and why is it the same as the R2
+Ethernet interface?
+3. What does the “–” in the ARP table mean?
+
+
+
+Merciiiiiiiiii

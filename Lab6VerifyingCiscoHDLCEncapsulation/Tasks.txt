@@ -1,0 +1,30 @@
+Lab 6. Verifying Cisco HDLC Encapsulation
+
+Lab Objective:
+The objective of this lab exercise is to verify Cisco HDLC
+encapsulation, which is the default encapsulation method for WAN
+interfaces on Cisco IOS routers.
+Lab Purpose:
+Cisco HDLC verification is a fundamental skill. Cisco HDLC
+encapsulation is the default encapsulation on all Cisco router Serial
+interfaces. As a Cisco engineer, as well as in the Cisco CCNA exam,
+you will be expected to know how to verify Cisco HDLC
+encapsulation.
+Task 1:
+Configure hostnames on R1 and R2 as illustrated in the topology.
+Task 2:
+Enable Serial interfaces on R1 and R2. The Serial0/0 interface on
+R2 is identified as the DCE in the topology. Configure the DCE
+interface on R2 to provide clocking to R1. The clock speed should be256 Kbps. Remember that 1 Kbps = 1000 bps. Verify that R2 is
+sending clocking information and that R1 receives this information
+from R2.
+Task 3:
+Configure IP addressing on R1 and R2 Serial0/0 interfaces as
+illustrated in the topology. Verify your interface encapsulation, which
+should be HDLC by default.
+Task 4:
+Enable debugging on the Cisco router to validate that HDLC
+keepalive messages are being sent between the two routers. Ensure
+that you disable debugging when you are finished. Verify that HDLC
+messages are sent in the keepalive interval that is listed under the
+interface, which should be approximately every 10 seconds.
