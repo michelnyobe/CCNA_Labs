@@ -1,2 +1,44 @@
-Lab : Configuring Inter-VLAN Routing (Router on a Stick)
+Lab : Configuration de l'inter-VLAN routeur (Router on a Stick)
+
+Objectif du laboratoire :
+L'objectif de cet exercice de laboratoire est de configurer un routeur pour 
+fournir communication inter-VLAN. Par défaut, les hôtes d'un VLAN 
+ne peuvent pas communiquer avec des hôtes dans un autre VLAN sans 
+routage de routeur entre les deux VLAN.
+
+Tache 1:
+Configurez un nom d'hôte sur les commutateurs 1 et 2 et les routeurs 1 à 4
+comme illustré dans la topologie ci-dessus.
+
+Tâche 2 :
+Configurez et vérifiez Sw1 et Sw2 en tant que commutateurs VTP Transparent.
+Les deux commutateurs doivent se trouver dans le domaine VTP nommé CISCO.
+Sécurisé Messages VTP avec le mot de passe CISCO.
+
+Tâche 3 :
+Configurez et vérifiez FastEthernet0/1 entre Sw1 et Sw2 en tant que
+Trunk 802.1Q et configurer les VLAN comme indiqué dans la topologie
+au-dessus de. Attribuez des ports aux VLAN représentés et configurez Sw1
+FastEthernet0/2 comme ligne réseau. Le VLAN20 devrait avoir Ethernet non balisé
+cadres. N'oubliez pas que sur les lignes réseau 802.1Q, seul le VLAN natif est
+non étiqueté.
+
+Tâche 4 : Configurer les adresses IP sur R2, R3 et R4 comme illustré dans le
+diagramme.
+
+Tâche 5 :
+Configurez les sous-interfaces de R1 FastEthernet0/0 dans le
+VLAN dans le diagramme. Configurez également l'interface VLAN10 sur Sw2
+avec l'adresse IP 10.0.10.2/28.
+
+Tâche 6 :
+Testez la connectivité réseau en envoyant une requête ping de R1 
+aux routeurs R2, R3 et R4.
+
+
+
+
+Merciiiii
+
+
 

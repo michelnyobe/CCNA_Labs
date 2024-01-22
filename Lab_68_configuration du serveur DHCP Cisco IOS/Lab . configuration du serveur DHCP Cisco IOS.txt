@@ -1,0 +1,31 @@
+Lab . configuration du serveur DHCP Cisco IOS
+
+Objectif du lab :
+L'objectif de cet exercice de laboratoire est que vous appreniez et compreniez
+comment configurer le serveur DHCP Cisco IOS.
+
+Tache 1:
+Configurez les noms d'hôte sur R1 et Sw1 comme illustré dans le
+topologie.
+
+Tâche 2 :
+Configurez le VLAN50 nommé DHCP_VLAN sur Sw1. Attribuer le
+Interfaces FastEthernet0/2 et FastEthernet0/3 sur Sw1 avec ce
+VLAN. Assurez-vous que les ports passent immédiatement au Spanning
+État de transfert d’arborescence.
+
+Tâche 3 :
+Configurez R1 en tant que serveur DHCP Cisco IOS avec les éléments suivants
+paramètres:
+● Nom du pool DHCP : CCNA-DHCP-POOL
+● Réseau DHCP : 172.16.1.0/24
+● Serveur DNS : 10.1.1.254
+● Serveur WINS : 10.2.2.254
+● Passerelle par défaut : 172.16.1.1
+● Domaine DNS : howtonetwork.net
+● Durée du bail DHCP : 5 jours 30 minutes
+
+Tâche 4 :
+Vérifiez votre configuration DHCP sur le poste de travail connecté (ou
+autre client DHCP) et vérifiez que votre serveur DHCP Cisco IOS est
+affichant une adresse DHCP louée.
